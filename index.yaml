@@ -11,4 +11,15 @@ entries:
     urls:
     - https://github.com/gvbusa/helm-charts/releases/download/example-0.1.0/example-0.1.0.tgz
     version: 0.1.0
-generated: "2021-06-09T23:43:05.330987503Z"
+  kuzoo-job:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2021-06-18T18:45:07.581253106Z"
+    description: helm chart to run kuzoo external job as a pipeline step
+    digest: a9e42c55aa1a072bbbb19ca8598806064c698a9012b51c48b7e439cec7b4ede1
+    name: kuzoo-job
+    type: application
+    urls:
+    - https://github.com/gvbusa/helm-charts/releases/download/kuzoo-job-0.1.0/kuzoo-job-0.1.0.tgz
+    version: 0.1.0
+generated: "2021-06-18T18:45:07.581332311Z"
