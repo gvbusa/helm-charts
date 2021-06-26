@@ -3,6 +3,16 @@ entries:
   example:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2021-06-26T23:04:03.013200682Z"
+    description: A Helm chart for Kubernetes
+    digest: f051420893f79d6f4ceb5215082a6e892b7e969ff64e73e0abd6de40cd45db4a
+    name: example
+    type: application
+    urls:
+    - https://github.com/gvbusa/helm-charts/releases/download/example-0.1.1/example-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2021-06-09T23:43:05.330982603Z"
     description: A Helm chart for Kubernetes
     digest: 9404db14e66a848fea88a8980efcdc97d79268d00483ccccf9c04b3aa745d1c8
@@ -32,4 +42,4 @@ entries:
     urls:
     - https://github.com/gvbusa/helm-charts/releases/download/kuzoo-job-0.1.0/kuzoo-job-0.1.0.tgz
     version: 0.1.0
-generated: "2021-06-18T20:43:45.909055911Z"
+generated: "2021-06-26T23:04:03.013209482Z"
