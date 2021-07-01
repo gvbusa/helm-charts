@@ -47,8 +47,22 @@ Selector labels
 */}}
 {{- define "example.selectorLabels" -}}
 app.kubernetes.io/name: {{ include "example.name" . }}
+{{- if .Values.canary }}
+app.kubernetes.io/canary-instance: {{ .Release.Name }}
+{{- else }}
 app.kubernetes.io/instance: {{ .Release.Name }}
 {{- end }}
+{{- end }}
+
+{{/*
+Canary labels
+*/}}
+{{- define "example.canaryLabels" -}}
+{{- if .Values.canary }}
+app.kubernetes.io/instance: {{ .Release.Name | trimPrefix "canary-" }}
+{{- end }}
+{{- end }}
+
 
 {{/*
 Create the name of the service account to use
