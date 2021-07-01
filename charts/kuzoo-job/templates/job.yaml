@@ -16,8 +16,8 @@ spec:
     spec:
       containers:
       - name: {{ .Values.nameOverride }}
-        image: "{{ .Values.image.repository }}/{{ .Values.nameOverride }}:{{ .Values.image.tag | default .Chart.AppVersion }}"
-        imagePullPolicy: {{ .Values.image.pullPolicy }}
+        image: "{{ .Values.image }}"
+        imagePullPolicy: Always
         command: {{ .Values.command }}
         {{- with .Values.env }}
         env:
