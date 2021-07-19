@@ -1,3 +1,4 @@
+{{- if not .Values.canary -}}
 {{- if .Values.autoscaling.enabled }}
 apiVersion: autoscaling/v2beta1
 kind: HorizontalPodAutoscaler

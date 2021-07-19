@@ -1,3 +1,4 @@
+{{- if not .Values.canary -}}
 {{- if .Values.ingress.enabled -}}
 {{- $fullName := include "example.fullname" . -}}
 {{- $svcPort := .Values.service.port -}}
