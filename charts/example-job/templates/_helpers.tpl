@@ -48,6 +48,7 @@ Selector labels
 {{- define "example-job.selectorLabels" -}}
 app.kubernetes.io/name: {{ include "example-job.name" . }}
 app.kubernetes.io/instance: {{ .Release.Name }}
+kuzoo.io/jobinstance: {{ .Values.jobinstance }}
 {{- end }}
 
 
