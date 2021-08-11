@@ -74,6 +74,16 @@ entries:
   example-job:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2021-08-11T20:12:02.493473276Z"
+    description: A Helm chart for Kubernetes
+    digest: d3698fb9655ecc0ac15f3840dfe44e634ae5f155c12f7a0dcb73471da95b9d98
+    name: example-job
+    type: application
+    urls:
+    - https://github.com/gvbusa/helm-charts/releases/download/example-job-0.1.3/example-job-0.1.3.tgz
+    version: 0.1.3
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2021-08-11T16:39:33.171877614Z"
     description: A Helm chart for Kubernetes
     digest: 37a7e6f483d920c4121be65612dd282f9318b47562fe0a02c954ab2b47968006
@@ -133,4 +143,4 @@ entries:
     urls:
     - https://github.com/gvbusa/helm-charts/releases/download/kuzoo-job-0.1.0/kuzoo-job-0.1.0.tgz
     version: 0.1.0
-generated: "2021-08-11T16:39:33.171908015Z"
+generated: "2021-08-11T20:12:02.493536576Z"
